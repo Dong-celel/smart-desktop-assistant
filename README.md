@@ -1,2 +1,30 @@
-# smart-desktop-assistant
-一个带桌面浮动球的智能搜索助手，支持自然语言分析和网址跳转 A floating smart assistant powered by DeepSeek that gives web links based on natural language commands.
+# ✨ 桌面智能搜索助手（Smart Desktop Assistant）
+（项目还未完成，UI界面存在一点缺陷，但也能用）
+
+一款 **基于 PyQt5 + DeepSeek API 的智能搜索工具**，点击桌面悬浮球就能唤出搜索框，输入自然语言指令，自动识别意图并跳转最合适的网址，视频、音乐、网页一个都不落！
+
+> 🎯 再也不用打开浏览器、搜索、点来点去了，一句话直达目标！
+
+---
+
+## 🌟 功能亮点
+
+- 💬 支持自然语言指令（例：“我想听稻香”、“看河南豫剧”）
+- 🧠 使用大语言模型（DeepSeek）识别意图
+- 🔍 自动跳转最适合的网址（B站、网易云、Bing 等）
+- 📌 悬浮气泡设计，桌面一键唤起搜索
+- 🌈 清爽酷炫的 PyQt5 UI，支持拖动、透明动画
+- 🧊 托盘驻留，后台静默运行不打扰
+
+---
+
+### 🧱 环境要求
+
+- Python 3.8+
+- PyQt5
+- `openai` SDK（兼容 DeepSeek）
+
+### 📦 安装依赖
+
+```bash
+pip install -r requirements.txt
